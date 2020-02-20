@@ -22,14 +22,16 @@
     .nombre-pagina {
         text-align: left;
         margin: 2%;
-        color: silver;
+        color: whitesmoke;
         font-size: x-large;
         font-family: 'Expletus Sans';
         font-weight: bold;
     }
 
-    .nav-link {
-        color: mintcream;
+    .navbar-dark .navbar-nav .nav-link {
+        color: whitesmoke;
+    }
+    .nav-link { 
         font-family: 'Expletus Sans';
     }
 
@@ -89,13 +91,13 @@
         margin-bottom: 1em;
     } */
 
-    .Recetas-3 {
-        margin-top: 2em;
-        margin-bottom: 4em;
+    .Extracto {
+        margin-top: 4em;
+        margin-bottom: 2em;
     }
 
     .Recetas-4 {
-        margin-top: 2em;
+        margin-top: 3em;
         margin-bottom: 1em;
     }
 
@@ -111,15 +113,16 @@
     }
 
     .carousel {
-        margin-top: 1em;
+        margin-top: oem;
     }
 
-    .insumos {
+    .elementos-1 {
         text-align: left;
-        font-family: 'Cabin';
-        font-weight: 500;
-        font-size: medium;
-        color: #373A3C;
+        font-family: 'Expletus Sans';
+        font-weight: 400;
+        font-size: large;
+        color: whitesmoke;
+        margin-top: 2em;
     }
 
     .borde-01 {
@@ -136,9 +139,12 @@
         font-family: 'Expletus Sans';
     }
 
-    .h5, h5 {
-        font-size: large;
+    .h2, h2 {
+        font-family: 'Expletus Sans';
+        font-size: xx-large;
         font-weight: 500;
+        color: whitesmoke;
+        text-align: center;
     }
 
     .descripciones-slider {
@@ -149,10 +155,10 @@
     }
 
     .ing {
-        width: 9em;
+        width: 100%;
         border-color: black;
         margin-left: 0em;
-        margin-top: 0em;
+        margin-top: 2.5em;
     }
 
     .prep {
