@@ -1,169 +1,232 @@
-.navbar-expand-lg{
-    background-color: steelblue;
-}
-.nombre-pagina{
-    text-align: left;
-    margin: 2%;
-    color: silver;
-    font-size: 150%;
-    font-family: 'Convergence';
-    font-weight: 400;
-}
-.nav-link{
-    color: mintcream;
-    font-family: 'Convergence';
-}
-.card-text-1{
-    text-align: left;
-    width: 100%;
-    height: 50%;
-}
-.text-sm-left{
-font-family: 'Cabin';
-margin-top: 1.5em;
-font-weight: 700;
-font-size: 2.2em;
-text-align: center;
-}
-.resumen{
-    font-family: 'Cabin';
-    font-weight: 700;
-    font-size: large;
-    color: #373A3C;
-    text-align: center;
-}
-.Botones-card{
-    margin-top: 1em;
-    display: inline-block;
-}
-.btn-secondary{
-    color: #373A3C;
-    background-color: white;
-    font-weight: 400;
-    font-family: 'Cabin';
-    font-size: 75%;
-    border-color: #dddddd;
-    float: left;
-}
-.btn-outline-light{
-    width: 12em;
-    margin-top: 2em;
-}
-.Recetas-1{
-    margin-top: 1em;
-    margin-bottom: 1em;
-}
-.Recetas-2{
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-.Recetas-3{
-    margin-top: 2em;
-    margin-bottom: 4em;
-}
-.Recetas-4{
-    margin-top: 2em;
-    margin-bottom: 1em;
-}
-.text-left{
-    margin-top: 1em;
-    border-color: transparent;
-}
-.card-title-2{
-    font-weight: 500;
-    font-size: 1.4em;
-    margin-top: 1em;
-}
-.carousel{
-    margin-top: 1em;
-}
-.insumos{
-    text-align: left;
-    font-family: 'Cabin';
-    font-weight: 500;
-    font-size: medium;
-    color: #373A3C;
-}
-.borde-01{
-    border-color: black;
-}
-.h3,h3{
-    text-align: center;
-    font-weight: 600;
-    margin-bottom: 2em;
-    margin-top: 1em;
-    font-size: xx-large;
-}
-.h5,h5{
-    font-size: large;
-    font-weight: 500;
-}
-.ing{
-    width: 9em;
-    border-color: black;
-    margin-left: 0em;
-    margin-top: 0em;
-}
-.prep{
-    width: 9em;
-    border-color: black;
-    margin-left: 0em;
-    margin-top: 0em;
-}
-.card-body-4{
-    font-family: 'Cabin';
-    text-align: left;
-    width: 100%;
-    margin-left: 1em;
-    margin-right: 1em;
+    body {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        background: linear-gradient(to left, #420f0fde, #002bff9e, #4f3131);
     }
-.card-title-4{
-    font-weight: 500;
-    font-size: 1.4em;
-    margin-top: 1.5em;
-}
-.card-text-4{
-    margin-right: 2.5em;
-    margin-bottom: 2em;
-}
-.h6,h6{
-    font-weight: 300;
-    font-family: 'Lobster';
-    font-size: xx-large;
-    margin-bottom: 1em;
-    color: white;
-    margin: 0.5em;
-}
-.h4,h4{
-    text-align: center;
-    font-weight: 600;
-    margin-top: 1em;
-    font-size: xx-large;
-    color: white;
-    padding-top: 2em;
-}
-.frase-final{
-    display: inline-block;
-    color: white;
-    font-size: large;
-    text-align: center;
-    width: 100%;
-}
-.ricom{
-    font-family: 'Lobster';
-    color: white;
-    font-size: x-large;
-}
-.bg-danger{
-    text-align: center;
-    margin-top: 4em;
-    padding-bottom: 5em;
-}
-.bg-dark{
-    padding: 0.5em;
-}
-@media (max-width: 480px) {
-    .carousel{
-        display: none;
+
+    .nav-dk {
+        background: linear-gradient(to right, #001dffb3, #8500ff9e, #4f3131);
     }
-}
+
+    .navbar-brand {
+        display: inline-block;
+        padding-top: .3125rem;
+        padding-bottom: .3125rem;
+        margin-right: 1rem;
+        font-size: 1.25rem;
+        line-height: inherit;
+        white-space: nowrap;
+    }
+
+    .nombre-pagina {
+        text-align: left;
+        margin: 2%;
+        color: silver;
+        font-size: x-large;
+        font-family: 'Expletus Sans';
+        font-weight: bold;
+    }
+
+    .nav-link {
+        color: mintcream;
+        font-family: 'Expletus Sans';
+    }
+
+    .col-lg-12 {
+        padding: 0%;
+    }
+
+    .card-text-1 {
+        text-align: left;
+        width: 100%;
+        height: 50%;
+    }
+
+    .text-sm-left {
+        font-family: 'Cabin';
+        margin-top: 1.5em;
+        font-weight: 700;
+        font-size: 2.2em;
+        text-align: center;
+    }
+
+    .resumen {
+        font-family: 'Cabin';
+        font-weight: 700;
+        font-size: large;
+        color: #373A3C;
+        text-align: center;
+    }
+
+    .Botones-card {
+        margin-top: 1em;
+        display: inline-block;
+    }
+
+    .btn-secondary {
+        color: #373A3C;
+        background-color: white;
+        font-weight: 400;
+        font-family: 'Cabin';
+        font-size: 75%;
+        border-color: #dddddd;
+        float: left;
+    }
+
+    .btn-outline-light {
+        width: 12em;
+        margin-top: 2em;
+    }
+
+    .Recetas-1 {
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+
+    /* .Proyectos {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    } */
+
+    .Recetas-3 {
+        margin-top: 2em;
+        margin-bottom: 4em;
+    }
+
+    .Recetas-4 {
+        margin-top: 2em;
+        margin-bottom: 1em;
+    }
+
+    .text-left {
+        margin-top: 1em;
+        border-color: transparent;
+    }
+
+    .card-title-2 {
+        font-weight: 500;
+        font-size: 1.4em;
+        margin-top: 1em;
+    }
+
+    .carousel {
+        margin-top: 1em;
+    }
+
+    .insumos {
+        text-align: left;
+        font-family: 'Cabin';
+        font-weight: 500;
+        font-size: medium;
+        color: #373A3C;
+    }
+
+    .borde-01 {
+        border-color: black;
+    }
+
+    .h3, h3 {
+        text-align: center;
+        font-weight: lighter;
+        margin-bottom: 2em;
+        margin-top: 1em;
+        font-size: xx-large;
+        color: whitesmoke;
+        font-family: 'Expletus Sans';
+    }
+
+    .h5, h5 {
+        font-size: large;
+        font-weight: 500;
+    }
+
+    .descripciones-slider {
+        color: whitesmoke;
+        font-family: 'Expletus Sans';
+        font-weight: 200;
+        font-size: x-large;
+    }
+
+    .ing {
+        width: 9em;
+        border-color: black;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    .prep {
+        width: 9em;
+        border-color: black;
+        margin-left: 0em;
+        margin-top: 0em;
+    }
+
+    .card-body-4 {
+        font-family: 'Cabin';
+        text-align: left;
+        width: 100%;
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
+    .card-title-4 {
+        font-weight: 500;
+        font-size: 1.4em;
+        margin-top: 1.5em;
+    }
+
+    .card-text-4 {
+        margin-right: 2.5em;
+        margin-bottom: 2em;
+    }
+
+    .h6, h6 {
+        font-weight: 300;
+        font-family: 'Expletus Sans';
+        font-size: xx-large;
+        margin-bottom: 1em;
+        color: white;
+        margin: 0.5em;
+    }
+
+    .h4, h4 {
+        text-align: center;
+        font-weight: bolder;
+        margin-top: 1em;
+        font-size: x-large;
+        color: white;
+        padding-top: 2em;
+        font-family: 'Expletus Sans';
+    }
+
+    .frase-final {
+        display: inline-block;
+        color: white;
+        font-size: larger;
+        text-align: center;
+        width: 100%;
+        font-family: 'Expletus Sans';
+    }
+
+    .btn-outline-light {
+        font-family: 'Expletus Sans';
+    }
+
+    .bg-danger {
+        text-align: center;
+        margin-top: 4em;
+        padding-bottom: 5em;
+        background: transparent!important;
+    }
+
+    .bg-dark {
+        padding: 0.5em;
+        background: linear-gradient(to right, #001dffb3, #8500ff9e, #4f3131);
+    }
+
+    @media (max-width: 480px) {
+        .carousel {
+            display: none;
+        }
+    }
