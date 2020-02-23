@@ -2,11 +2,18 @@
         width: 100%;
         padding: 0;
         margin: 0;
-        background: linear-gradient(to left, #420f0fde, #002bff9e, #4f3131);
+        box-sizing: border-box;
+        font-family: 'Expletus Sans';
+        background: linear-gradient(to top, #420f0fde, #002bff9e, #4f3131);
+        
+    }
+    html{
+        scroll-behavior: smooth;
     }
 
     .nav-dk {
-        background: linear-gradient(to right, #001dffb3, #8500ff9e, #4f3131);
+        /* background: linear-gradient(to top, #001dffb3, #8500ff9e, #4f3131); */
+        background-image: linear-gradient(to left, #1d5755 2%, #3d99be 31%, #56317a 100%);
     }
 
     .navbar-brand {
@@ -18,22 +25,30 @@
         line-height: inherit;
         white-space: nowrap;
     }
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+        padding: 10px;
+    }
+    a:hover {
+        color:  darkslategray;
+        text-decoration: none;
+    }
 
     .nombre-pagina {
         text-align: left;
         margin: 2%;
         color: whitesmoke;
         font-size: x-large;
-        font-family: 'Expletus Sans';
         font-weight: bold;
     }
 
     .navbar-dark .navbar-nav .nav-link {
         color: whitesmoke;
     }
-    .nav-link { 
+    /* .nav-link { 
         font-family: 'Expletus Sans';
-    }
+    } */
 
     .col-lg-12 {
         padding: 0%;
@@ -98,6 +113,7 @@
     .Experiencias {
         margin-top: 4em;
         margin-bottom: 2em;
+        display: flex;
     }
 
     .Recetas-4 {
@@ -122,7 +138,6 @@
 
     .elementos-1 {
         text-align: left;
-        font-family: 'Expletus Sans';
         font-weight: 400;
         font-size: large;
         color: whitesmoke;
@@ -140,20 +155,17 @@
         margin-top: 1em;
         font-size: xx-large;
         color: whitesmoke;
-        font-family: 'Expletus Sans';
     }
 
     .h2, h2 {
-        font-family: 'Expletus Sans';
         font-size: xx-large;
         font-weight: 500;
         color: whitesmoke;
         text-align: center;
     }
 
-    .descripciones-slider {
+    .des-slider1, .des-slider2 {
         color: whitesmoke;
-        font-family: 'Expletus Sans';
         font-weight: 200;
         font-size: x-large;
     }
@@ -179,14 +191,6 @@
         margin-top: 0em;
     }
 
-    .card-body-4 {
-        font-family: 'Cabin';
-        text-align: left;
-        width: 100%;
-        margin-left: 1em;
-        margin-right: 1em;
-    }
-
     .card-title-4 {
         font-weight: 500;
         font-size: 1.4em;
@@ -200,8 +204,7 @@
 
     .h6, h6 {
         font-weight: 300;
-        font-family: 'Expletus Sans';
-        font-size: xx-large;
+        font-size: x-large;
         margin-bottom: 1em;
         color: white;
         margin: 0.5em;
@@ -213,8 +216,6 @@
         margin-top: 1em;
         font-size: x-large;
         color: white;
-        padding-top: 2em;
-        font-family: 'Expletus Sans';
     }
 
     .frase-final {
@@ -223,11 +224,29 @@
         font-size: larger;
         text-align: center;
         width: 100%;
-        font-family: 'Expletus Sans';
     }
 
-    .btn-outline-light {
-        font-family: 'Expletus Sans';
+    .typeform-share{
+            display: inline-block;
+            text-decoration: none;
+            color: darkslategray;
+            border-color: whitesmoke;
+            cursor: pointer;
+            font-size: 30px;
+            line-height: 50px;
+            text-align: center;
+            margin: 15px;
+            height: 50px;
+            padding: 0px 33px;
+            border-radius: 5px;
+            max-width: 100%;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            font-weight: 600;
+            background-color: whitesmoke;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
     }
 
     .bg-danger {
@@ -236,14 +255,73 @@
         padding-bottom: 5em;
         background: transparent!important;
     }
+    #cargo-1{
+        /* display: flex; */
+        color: whitesmoke;
+        font-weight: 400;
+        font-size: larger;
+        align-content: center;
+        margin-left: 5px;
+        margin-top: 15px;
+    }
+    #cargo-2{
+        /* display: flex; */
+        color: whitesmoke;
+        font-weight: 400;
+        font-size: larger;
+        align-content: center;
+        margin-left: 5px;
+    }
+    #logo-mega-mec {
+        margin-top: 5em;
+    }
+    .fab{
+        color: whitesmoke;
+    }
+
+    #container-footer{
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 1em;
+        margin-bottom: 1em;
+    }
+    #texto-centro{
+        padding-right: 2em;
+        text-align: right;
+
+    }
 
     .bg-dark {
         padding: 0.5em;
-        background: linear-gradient(to right, #001dffb3, #8500ff9e, #4f3131);
+        /* background: linear-gradient(to left, #420f0fde, #002bff9e, #4f3131); */
+        background-image: linear-gradient(to left, #1d5755 2%, #3d99be 31%, #56317a 100%);
     }
 
     @media (max-width: 480px) {
-        .carousel {
+        .carousel,#texto-izquierdo,#danilo-final,#mega-mec{
             display: none;
-        }
     }
+    }
+    @media (max-width: 480px) {
+        #logo-mega-mec {
+       margin-top: 0;   
+    }
+    }
+    @media (max-width: 480px) {
+        #texto-centro{
+       padding-right: 0;
+       text-align: center; 
+    }
+    }
+    section {
+        flex-direction: column-reverse;
+        }
+    section > img {
+        height: 35%;
+        }
+    .container{
+        text-align: center;
+        }
